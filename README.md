@@ -114,7 +114,7 @@ uploads the files stored in the **data** subfolder. The sample assumes the file 
     │   ├── data
     │   │   └── ca.crt
 
-To convert the certificate to the DER format, the following command shuold be used:
+To convert the certificate to the DER format, the following command should be used:
 
     wget pki.goog/roots.pem
     openssl x509 -outform der -in roots.pem -out ca.crt
